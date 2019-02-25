@@ -107,7 +107,7 @@ while True:
         if player_health > 100: player_health = 100
         #更新食物精灵组
         food_group.update(ticks, 50)
-
+ 
         if len(food_group) == 0:
             game_over = True
     #清屏
